@@ -1,8 +1,6 @@
-<?php 
-include("./assets/php/db.php");
-include("./assets/includes/header.php");
-include("./assets/includes/footer.php");
-?>
+<?php include("./assets/php/db.php"); ?>
+<?php include("./assets/includes/header.php"); ?>
 
 
 
+<?php include("./assets/includes/footer.php"); ?>
