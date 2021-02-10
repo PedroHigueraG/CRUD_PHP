@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+header{
+    background-color: rgb(65, 155, 228);
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+header h1{
+    font-size: 2.5rem;
+    color: white;
+    margin: 10px;
+}
+.container .div-form{
+    margin: 10px;
+    padding: 10px;
+}
+.container .div-form form{
+    display: flex;
+    flex-direction: column;
+}
+.input-title, .input-description {
+    margin: 2px;
+    padding: 3px;
+}
+.input-button{
+    margin: 4px 2px;
+    background-color: rgb(70, 211, 112);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+}
