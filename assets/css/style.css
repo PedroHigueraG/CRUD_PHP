@@ -21,14 +21,19 @@ header h1{
 .container .div-form{
     margin: 10px;
     padding: 10px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 5px;
 }
 .container .div-form form{
     display: flex;
     flex-direction: column;
+    
 }
 .input-title, .input-description {
     margin: 2px;
-    padding: 3px;
+    padding: 5px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 5px;
 }
 .input-button{
     margin: 4px 2px;
