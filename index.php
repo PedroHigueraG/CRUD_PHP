@@ -6,7 +6,7 @@
     <!-- PHP para que guarde en sesion si se añadió una tarea correcta -->
     <?php 
         if(isset($_SESSION['message'])){
-            ?> <script> alert("Task saved succesfully");</script> <?php
+            ?> <script> alert("<?php echo $_SESSION['message'] ?>");</script> <?php
             session_unset();
         }
     ?>
