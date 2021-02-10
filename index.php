@@ -44,8 +44,8 @@
                                 <td><?php echo $row['description']; ?></td>
                                 <td><?php echo $row['created_at']; ?></td>
                                 <td>
-                                    <a href="./assets/php/edit.php?id=<?php echo $row['id']?>">Edit</a>
-                                    <a href="./assets/php/delete_task.php?id=<?php echo $row['id']?>">Delete</a>
+                                    <a href="./assets/php/edit.php?id=<?php echo $row['id']?>" class="edit-button"><i class="fas fa-marker"></i></a>
+                                    <a href="./assets/php/delete_task.php?id=<?php echo $row['id']?>" class="delete-button"><i class="fas fa-times"></i></a>
                                 </td>
                                 
                             </tr>
