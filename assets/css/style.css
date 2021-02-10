@@ -18,6 +18,11 @@ header h1{
     color: white;
     margin: 10px;
 }
+.container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: center;
+}
 .container .div-form{
     margin: 10px;
     padding: 10px;
@@ -42,4 +47,25 @@ header h1{
     border: none;
     border-radius: 5px;
     padding: 6px;
+}
+.container .div-table{
+    margin: 10px;
+}
+.container .div-table .table-task{
+    border-collapse: collapse;
+    width: 100%;
+}
+.container .div-table .table-task th{
+    font-size: 1.8rem;
+    font-weight: 700;
+    border: 1px solid rgb(201, 201, 201);
+    padding: 5px;
+}
+.container .div-table .table-task tr{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.container .div-table .table-task tr td{
+    padding: 5px;
+    border: 1px solid rgb(201, 201, 201);
 }
