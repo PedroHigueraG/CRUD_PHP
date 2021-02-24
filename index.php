@@ -1,3 +1,6 @@
+<!--Cristian Daniel Meneses Ramírez - 20182020071
+    Pedro Arturo Higuera Garzón - 20182020087 -->
+
 <?php include("./assets/php/db.php"); ?>
 <?php include("./assets/includes/header.php"); ?>
 
